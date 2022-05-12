@@ -40,7 +40,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -105,16 +105,62 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/Mr-Chen99/Mr-Chen99.github.io.git
+  repo: git@github.com:/Mr-Chen99/Mr-Chen99.github.io.git
   branch: master
   name: Dream
   email: 1343580315@qq.com
-
+#deploy:
+#  type: baidu_url_submitter
 # SEO
 sitemap:
   path: sitemap.xml
 baidusitemap:
   path: baidusitemap.xml
 
-baidu_site_verification: code-4LzOOqnRk0
+baidu_url_submit:
+  ## 提交最新的五个链接
+  count: 5
+  ## 百度站长平台中注册的域名
+  host: mr-chen99.github.io
+  ## 准入秘钥
+  token: QXVMtvQpm8p1RB5h
+  ## 文本文档的地址， 新链接会保存在此文本文档里
+  path: baidu_urls.txt
+
+symbols_count_time:
+  symbols: true                # 文章字数统计
+  time: true                   # 文章阅读时长
+  total_symbols: true          # 站点总字数统计
+  total_time: true             # 站点总阅读时长
+  exclude_codeblock: false     # 排除代码字数统计
+
+#aplayer
+aplayer:
+  script_dir: js                      # Public 目录下脚本目录路径，默认: 'assets/js'
+  style_dir: css                         # Public 目录下样式目录路径，默认: 'assets/css'
+  #cdn: http://xxx/aplayer.min.js                # 引用 APlayer.js 外部 CDN 地址 (默认不开启)
+  #style_cdn: http://xxx/aplayer.min.css         # 引用 APlayer.css 外部 CDN 地址 (默认不开启)
+  meting: true                                  # MetingJS 支持
+  #meting_api: http://xxx/api.php                # 自定义 Meting API 地址
+  #meting_cdn: http://xxx/Meing.min.js           # 引用 Meting.js 外部 CDN 地址 (默认不开启)
+  asset_inject: true                            # 自动插入 Aplayer.js 与 Meting.js 资源脚本, 默认开启
+  #externalLink: http://xxx/aplayer.min.js       # 老版本参数，功能与参数 cdn 相同meting: true
+
+
+## Live2D看板娘
+live2d:
+  enable: true
+  pluginModelPath: assets/
+  model:
+    #模板目录，在node_modules里
+    use: live2d-widget-model-hijiki
+  display:
+    position: right
+    width: 150
+    height: 300
+  mobile:
+    # 在手机端显示
+    show: false
+  rect:
+    opacity:0.7
 
