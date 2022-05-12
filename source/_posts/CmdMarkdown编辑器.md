@@ -1,5 +1,7 @@
 ---
 title: 一款好用的Markdown编辑阅读器
+cover: /img/dream/avatar.jpg
+sticky: 10
 ---
 # 欢迎使用 Cmd Markdown 编辑阅读器
 

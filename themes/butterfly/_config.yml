@@ -133,6 +133,7 @@ cover:
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
+    - https://gitee.com/xiaokar/img/raw/master/blog2.jpg
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
@@ -409,7 +410,7 @@ crisp:
 footer:
   owner:
     enable: true
-    since: 2020
+    since: 2022
   custom_text:
   copyright: true # Copyright of theme and framework
 
@@ -519,7 +520,7 @@ enter_transitions: true
 # canvas_ribbon (靜止彩帶背景)
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: true
+  enable: false
   size: 150
   alpha: 0.6
   zIndex: -1
@@ -528,7 +529,7 @@ canvas_ribbon:
 
 # Fluttering Ribbon (動態彩帶)
 canvas_fluttering_ribbon:
-  enable: false
+  enable: true
   mobile: false
 
 # canvas_nest
@@ -604,7 +605,7 @@ hr_icon:
 
 # the subtitle on homepage (主頁subtitle)
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect (打字效果)
   effect: true
   # loop (循環打字)
@@ -618,6 +619,12 @@ subtitle:
   source: false
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
+    - 生活不止眼前的苟且
+    - 还有买车和买房
+    - 与其提升自己
+    - 不如诋毁他人
+    - 今天你加班了吗
+    - Did you work overtime today
 
 # Loading Animation (加載動畫)
 preloader: true
@@ -637,9 +644,9 @@ aside:
     description:
     button:
       enable: true
-      icon: fab fa-github
-      text: Follow Me
-      link: https://github.com/xxxxxx
+      icon: fab fa-alien
+      text: Gitee
+      link: https://github.com/Mr-Chen99
   card_announcement:
     enable: true
     content: This is my Blog
@@ -681,8 +688,8 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
-  publish_date:
+  enable: true
+  publish_date: 2022/05/20 05:20:00
 
 # Aside widget - Newest Comments
 newest_comments:
