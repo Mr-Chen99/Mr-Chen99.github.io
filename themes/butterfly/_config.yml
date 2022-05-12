@@ -7,7 +7,7 @@ menu:
   时间轴: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
-  清单||fa fa-heartbeat:
+  娱乐||fa fa-heartbeat:
     音乐: /music/ || fas fa-music
     照片: /Gallery/ || fas fa-images
     电影: /movies/ || fas fa-video
@@ -132,8 +132,9 @@ cover:
   # left/right/both
   position: both
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
-  default_cover:
-    - https://gitee.com/xiaokar/img/raw/master/blog2.jpg
+  default_cover: /img/dream/default_cover.png
+#  /img/dream/default_cover.png
+    #- https://gitee.com/xiaokar/img/raw/master/blog2.jpg
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
@@ -204,10 +205,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-     - img: /img/wechat.jpg
+     - img: /img/dream/wechat_one.jpg
        link:
        text: 微信
-     - img: /img/alipay.jpg
+     - img: /img/dream/alipay.jpg
        link:
        text: 支付宝
 
@@ -646,7 +647,7 @@ aside:
       enable: true
       icon: fab fa-alien
       text: Gitee
-      link: https://github.com/Mr-Chen99
+      link: https://gitee.com/mr__chen99
   card_announcement:
     enable: true
     content: This is my Blog
