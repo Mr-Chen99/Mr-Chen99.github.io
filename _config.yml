@@ -163,4 +163,9 @@ live2d:
     show: false
   rect:
     opacity:0.7
-
+#  本地搜索
+search:
+  path: search.json
+  field: post
+#  content: true
+#  template: ./search.xml
