@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mr-chen99.github.io/2022/09/09/Idea%E7%A0%B4%E8%A7%A3%E6%96%B9%E6%B3%95/</loc>
+    
+    <lastmod>2022-09-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://mr-chen99.github.io/2022/05/20/CmdMarkdown%E7%BC%96%E8%BE%91%E5%99%A8/</loc>
     
     <lastmod>2022-09-09</lastmod>
@@ -65,6 +74,13 @@
 
   
   <url>
+    <loc>https://mr-chen99.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/</loc>
+    <lastmod>2022-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://mr-chen99.github.io/tags/%E9%9D%A2%E8%AF%95%E5%85%AB%E8%82%A1%E6%96%87/</loc>
     <lastmod>2022-09-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -79,20 +95,20 @@
   </url>
   
   <url>
-    <loc>https://mr-chen99.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%88%86%E4%BA%AB/</loc>
+    <loc>https://mr-chen99.github.io/tags/Idea/</loc>
+    <lastmod>2022-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mr-chen99.github.io/tags/%E7%A0%B4%E8%A7%A3/</loc>
     <lastmod>2022-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
 
-  
-  <url>
-    <loc>https://mr-chen99.github.io/categories/Java/</loc>
-    <lastmod>2022-09-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>https://mr-chen99.github.io/categories/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/</loc>
@@ -102,7 +118,7 @@
   </url>
   
   <url>
-    <loc>https://mr-chen99.github.io/categories/Java/Java%E5%9F%BA%E7%A1%80/</loc>
+    <loc>https://mr-chen99.github.io/categories/Java/</loc>
     <lastmod>2022-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -110,6 +126,13 @@
   
   <url>
     <loc>https://mr-chen99.github.io/categories/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/%E8%BD%AF%E4%BB%B6%E5%AE%89%E5%88%A9/</loc>
+    <lastmod>2022-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mr-chen99.github.io/categories/Java/Java%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2022-09-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
