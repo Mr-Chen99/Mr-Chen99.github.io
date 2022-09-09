@@ -731,7 +731,7 @@ darkmode:
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
 #  autoChangeMode: false
-  autoChangeMode: 1
+  autoChangeMode: 2
 
 # Don't modify the following settings unless you know how they work (非必要請不要修改 )
 # Choose: readmode,translate,darkmode,hideAside,toc,chat,comment

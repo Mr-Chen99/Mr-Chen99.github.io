@@ -1,7 +1,13 @@
 ---
 title: 一款好用的Markdown编辑阅读器
-cover: /img/dream/avatar.jpg
+cover: https://www.zybuluo.com/static/img/logo.png
 sticky: 10
+date: 2022-05-20 16:38:16
+categories:
+- 杂七杂八
+- 软件安利
+tags:
+- 软件分享
 ---
 # 欢迎使用 Cmd Markdown 编辑阅读器
 
