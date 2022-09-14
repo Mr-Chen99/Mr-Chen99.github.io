@@ -12,7 +12,9 @@ menu:
     音乐: /music/ || fas fa-music
     照片: /Gallery/ || fas fa-images
     电影: /movies/ || fas fa-video
-    悄悄话: /artitalk/ || fa-fw fas fa-comment-dots
+    书籍: /books/ || fas fa-book
+    游戏: /games/ || fas fa-gamepad
+    悄悄话: /shuoshuo/ || fa-fw fas fa-comment-dots
     友人帐: /link/ || fas fa-link
 #  友链: /link/ || fas fa-link
   关于笔者: /about/ || fas fa-heart
@@ -316,7 +318,9 @@ gitalk:
 # https://valine.js.org
 valine:
   appId: nwdcthWZhNzY3X8HnFLB3Y3d-gzGzoHsz
+#  appId: 1CuWo4uap9ibVnjQkOj6e18K-MdYXbMMI
   appKey: Rp4fyR6Hgc65EaKwZlBC8s61
+#  appKey: rF3LyhZzIiTsle8gII96edAy
   avatar: monsterid # gravatar style https://valine.js.org/#/avatar
   serverURLs: # This configuration is suitable for domestic custom domain name users, overseas version will be automatically detected (no need to manually fill in)
   bg: # valine background
@@ -789,9 +793,9 @@ note:
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
 pjax:
-  enable: true
+  enable: false
   exclude:
-#    - /artitalk
+#    - /shuoshuo
     # - xxxx
     # - xxxx
 
@@ -805,7 +809,7 @@ aplayerInject:
 # position 彈窗位置
 # 可選 top-left / top-center / top-right / bottom-left / bottom-center / bottom-right
 snackbar:
-  enable: false
+  enable: true
   position: bottom-left
   bg_light: '#49b1f5' # The background color of Toast Notification in light mode
   bg_dark: '#1f1f1f' # The background color of Toast Notification in dark mode
@@ -918,7 +922,13 @@ CDN:
     # prismjs_js:
     # prismjs_lineNumber_js:
     # prismjs_autoloader:
-#artitalk:
-#  enable: true
-#  appId: nwdcthWZhNzY3X8HnFLB3Y3d-gzGzoHsz
+# Artitalk
+# see https://artitalk.js.org/
+artitalk:
+  appId: 1CuWo4uap9ibVnjQkOj6e18K-MdYXbMMI  # 填入设置中的AppId
+#  appId: nwdcthWZhNzY3X8HnFLB3Y3d-gzGzoHsz  # 填入设置中的AppId
+  appKey: rF3LyhZzIiTsle8gII96edAy
 #  appKey: Rp4fyR6Hgc65EaKwZlBC8s61
+#  option:
+#    serverURLs: https://nwdcthwz.lc-cn-n1-shared.com # 把xxxxxxxx替换成你自己AppID的前8位字符
+
