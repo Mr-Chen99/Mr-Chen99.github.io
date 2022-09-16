@@ -174,7 +174,7 @@ douban:
   builtin: true
   meta: true
   book:
-    title: '那些年，我翻阅过的书'
+    title: '书籍是人类进步的阶梯'
     quote: '思想和身体，总有一个在路上'
     meta: true
     comments: true
@@ -183,17 +183,18 @@ douban:
     path: books
     limit:
   movie:
-    title: '那些年，我追过的电影'
-    quote: '过去、现在、和未来'
+    title: '灯火阑珊处，他蓦然回首，而我却在灯影里'
+    quote: '此时此刻恰如彼时彼刻'
     meta: true
     comments: true
-    top_img: https://cccccc.png
+#    top_img: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fi-7.vcimg.com%2Ftrim%2F2792286d1088c86cff20f4567da11aab4609586%2Ftrim.jpg&refer=http%3A%2F%2Fi-7.vcimg.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1665901037&t=70f485268fb7f8e6af21c8b406b7d2af
+    top_img: https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fp4.itc.cn%2Fimages01%2F20210225%2Fea8510093bf044d595521d1355f882b5.jpeg&refer=http%3A%2F%2Fp4.itc.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1665901254&t=23abd942a9cb71d06d8d95fc8104ffd4
     aside: true
     path: movies
     limit:
   game:
-    title: '那些年，我玩过的游戏'
-    quote: '还记得你曾经的游戏角色吗'
+    title: '为荣誉而生,为荣耀而死'
+    quote: '我收到了召唤,我必须回应,一如既往!!!'
     meta: true
     comments: true
     top_img: https://cccccc.png
