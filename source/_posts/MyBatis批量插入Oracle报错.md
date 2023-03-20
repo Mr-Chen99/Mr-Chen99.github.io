@@ -55,5 +55,5 @@ tags:
   </insert>
 ```
 > **原因**:
-> 由于oracle数据库**不支持values**，所以只能使用 **sparator='UNION'**
+> 由于**oracle数据库搭配MyBatis框架不支持values**，所以只能使用 **sparator='UNION'**
 > 将插入的数据临时保存并连接起来一起插入
